@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+  }
+  .container {
+    max-width: 700px;
+    background: #e2eef2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
+  }
+  .search-icon {
+    color: #98abc2;
+  }
+  .search {
+    margin: 0 20px;
+    padding: 0 0 20px;
+    text-align: right;
+    border-radius: 5px;
+  }
+  .search-bar {
+    border: #1b4de3;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+  }
+  .button {
+    background-color: #1b4de3;
+    border: #1b4de3;
+    padding: 5 8px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 150ms ease-in-out;
+  }
+  .button:hover {
+    background: #96b6e9;
+    cursor: pointer;
+  }
+  .current {
+    background-color: #1b4de3;
+    border: #1b4de3;
+    padding: 5 8px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 150ms ease-in-out;
+  }
+  .current:hover {
+    background: #96b6e9;
+    cursor: pointer;
+  }
+  .card {
+    margin: 0 29px;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(
+      0deg,
+      rgb(183, 217, 250) 37%,
+      rgb(183, 217, 250) 52%,
+      rgb(183, 217, 250) 52%,
+      rgb(145, 161, 182) 100%
+    );
+  }
+  
+  .card2 {
+    margin: 0 20px;
+    padding: 20 20px;
+    border: 0;
+    border-radius: 10px;
+    background: #b6d9f9;
+  }
+  .card-header {
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+  }
+  .weather {
+    transition: all 300ms ease-in-out;
+  }
+  
+  .weather:hover {
+    filter: contrast(50%);
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  h1,
+  h2 {
+    font-size: 30px;
+    padding: 0.5px 20px;
+    margin: 0;
+    color: #fff;
+  }
+  
+  h1 {
+    text-align: left;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 48px;
+  }
+  h2 {
+    font-weight: 200;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  p {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    padding: 0.5px 20px;
+    color: hsl(220, 2%, 39%);
+  }
+  .sun-cloud {
+    display: block;
+    position: relative;
+  }
+  .current-temperature {
+    margin: 0 20px;
+    left: 20px;
+    display: inline-block;
+    text-align: left;
+    font-size: 35px;
+    color: hsl(220, 2%, 39%);
+  }
+  .celsius-fahrenheit {
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 30px;
+    color: hsl(220, 2%, 39%);
+    text-align: center;
+  }
+  a.degree-unit {
+    color: hsl(220, 2%, 39%);
+    text-align: center;
+  }
+  a.degree-unit:hover {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
